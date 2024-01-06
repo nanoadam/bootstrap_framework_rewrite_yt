@@ -1,0 +1,36 @@
+// Font Family
+html {
+  font-family: $font-family;
+  line-height: $line-height;
+}
+
+body {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  text-align: left;
+  background-color: $background-color;
+}
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+// Paragraph
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+// Address Element
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: $line-height;
+}
